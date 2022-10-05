@@ -15,3 +15,4 @@ def test_add_to_basket_button_exists(browser):
         button_exists = False
     assert button_exists, "Button not found"
 
+# pytest --language=es test_items.py
